@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria</title>
+</head>
+<body>
+    
+    <h1> PIZZARIA </h1>
+    <a href="Index.html">| Voltar |</a><br>
+
+    <br>
+
+    <!--
+    <form name="contato" target="_blank" onsubmit="alert ('Formulario Enviado');" autocomplete="off" method="post" action="#">
+        <label>Nome:</label> <input type="text" name="nome" /><br>
+        <label>Idade:</label> <input type="number" name="nome" min="0" max="99"/><br>
+        <label>Senha:</label> <input type="password" name="senha" /><br>
+        <label>Email:</label> <input type="email" name="email" /><br>
+        <label>Url Util:</label> <input type="url" name="url" /><br>
+        <label>Data:</label> <input type="date" name="data" /><br>
+        <label>Barra:</label> <input type="range" name="barra" min="0" max="100" value="100"/><br>
+        <label>Color:</label> <input type="color" name="cor" /><br>
+        <label>Checkbox:</label> <input type="checkbox" name="caixa" /><input type="checkbox" name="caixa" /><br>
+        <label>Radio:</label> <input type="radio" name="radio" /><input type="radio" name="radio" /><br>
+        <label>Hidden:</label> <input type="hidden" name="escondido" /><br>
+        <label>Arquivo:</label> <input type="file" name="arquivo" /><br>
+        <label>Pesquisa:</label> <input type="search" name="busca" /><br>
+        <button type="submit">Enviar</button> <button type="reset">Resetar</button>
+    </form>-->
+
+    <img src="midias/images.jpg" tiitle="Pizza" alt="Foto de uma pizza de 4 pedaços" width="560"> <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/sSswo1j5bCE?si=rqunclvatozIr5tR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <form name="pizza" target="_blank" onsubmit="alert('Pizza vão bora');" method="post" action="#">
+        
+        <h3>BORA PEDIR UMA PIZZA</h3>
+        
+        <select name="saborPizza">
+            <option value="">Selecione o Sabor</option>
+            <option value="calabresa">Calabresa</option>
+            <option value="moda">Moda</option>
+            <option value="4queijos">Quatro Queijos</option>
+        </select>
+
+        <p>Escolhas os extras:</p>
+        <input type="checkbox" name="extras[]"/><label> Calabresa</label><br>
+        <input type="checkbox" name="extras[]"/><label> Queijo Extra</label><br>
+        <input type="checkbox" name="extras[]"/><label> Azeitona</label><br>
+        <input type="checkbox" name="extras[]"/><label> Peperoni</label><br>
+
+        <p>Borda Recheada:</p>
+        <input type="radio" name="borda"><label> SIM</label>
+        <input type="radio" name="borda"><label> NÃO</label>
+
+        <p>Bebida:</p>
+        <input type="radio" name="bebida"><label> Refrigerante</label><br>
+        <input type="radio" name="bebida"><label> Suco</label><br>
+        <input type="radio" name="bebida"><label> Cerveja</label><br>
+        <input type="radio" name="bebida"><label> Agua</label><br>
+
+        <p>Observações:</p>
+        <textarea cols="40" rows="10" name="obs"></textarea>
+        <br>
+        <br>
+        <button type="submit"> Pedir Pizza </button>
+        <button type="reset"> Resetar </button>
+        
+    </form>
+
+</body>
+</html>
