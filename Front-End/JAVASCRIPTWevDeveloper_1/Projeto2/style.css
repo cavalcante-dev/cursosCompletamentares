@@ -29,7 +29,7 @@ p {
 }
 
 button {
-    background-color: #e30224;
+    background-color: #5c6b13;
     color: #fae1c0;
     padding: 10px 20px;
     border: none;
@@ -41,7 +41,7 @@ button {
 }
 
 button:hover {
-    background-color: #8a0015;
+    background-color: #2d3a06;
 }
 
 ul {
@@ -75,4 +75,55 @@ input[type="text"] {
 input[type="text"]:focus{
     border-color: #8a0015;
     box-shadow: inset 0 2px 3px #c9ab8d;
+}
+
+.remover {
+    background-color: #e30224;
+    color: #fae1c0;
+    padding: 7px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    margin-top: 0;
+}
+
+.remover:hover {
+    background-color: #8a0015;
+}
+
+
+.editar {
+    background-color: #5c6b13;
+    color: #fae1c0;
+    padding: 7px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    margin-top: 0;
+}
+
+.editar:hover {
+    background-color: #2d3a06;
+}
+
+.removerTodos {
+    background-color: #e30224;
+    color: #fae1c0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.removerTodos:hover {
+    background-color: #8a0015;
 }
